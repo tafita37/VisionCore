@@ -1,0 +1,18 @@
+.login-logo img.mada {
+    width: 120px;      /* valeur à ajuster */
+    height: 120px;     /* même hauteur pour les deux */
+    /* object-fit: contain; */
+}
+
+.login-logo img.vision {
+    width: 160px;      /* valeur à ajuster */
+    height: 155px;     /* même hauteur pour les deux */
+    /* object-fit: contain; */
+}
+
+.login-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 205px; /* espace entre les logos */
+}

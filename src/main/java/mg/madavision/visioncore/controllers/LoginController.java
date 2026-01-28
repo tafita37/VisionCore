@@ -17,6 +17,13 @@ public class LoginController {
         return modelAndView;
     }
 
+    @GetMapping("/register")
+    public ModelAndView register() {
+        ModelAndView modelAndView=new ModelAndView();
+        modelAndView.setViewName("dynamique/register");
+        return modelAndView;
+    }
+
     @GetMapping("/home")
     public ModelAndView home() {
         ModelAndView modelAndView=new ModelAndView();
